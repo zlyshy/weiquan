@@ -5,8 +5,8 @@
 # Site
 title: 中梁云山和院问题与诉求商讨办公室
 subtitle: '济南中梁云山和院维权'
-description: '济南中梁云山和院维权 济南中梁云山和院 中梁维权 中梁明湖云璟 济南洋房 济南维权'
-keywords:
+description: '济南中梁云山和院业主维权'
+keywords: 济南中梁云山和院维权 济南中梁云山和院 中梁维权 中梁明湖云璟 济南洋房 济南维权
 author: 中梁维权办
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 1
   order_by: -date
 
 # Category & Tag
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
