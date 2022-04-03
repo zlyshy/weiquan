@@ -6,7 +6,7 @@
 title: 中梁云山和院问题与诉求商讨办公室
 subtitle: '济南中梁云山和院维权'
 description: '济南中梁云山和院业主维权'
-keywords: 济南中梁云山和院维权 济南中梁云山和院 中梁维权 中梁明湖云璟 济南洋房 济南维权
+keywords: 中梁 中梁维权 济南中梁 济南中梁维权 济南中梁云山和院 中梁明湖云璟 济南洋房 济南维权
 author: 中梁维权办
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -14,7 +14,7 @@ timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://zhongliangweiquan.github.io
-permalink: :year/:month/:day/:title/
+permalink: :title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
