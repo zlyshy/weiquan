@@ -5,7 +5,7 @@
 # Site
 title: 中梁云山和院问题与诉求商讨办公室
 subtitle: '济南中梁云山和院维权'
-description: '济南中梁云山和院业主维权'
+description: '今天买中梁，明天维权忙。'
 keywords: 中梁 中梁维权 济南中梁 济南中梁维权 济南中梁云山和院 中梁明湖云璟 济南洋房 济南维权
 author: 中梁维权办
 language: zh-CN
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
