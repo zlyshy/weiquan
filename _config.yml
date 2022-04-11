@@ -5,8 +5,8 @@
 # Site
 title: 中梁云山和院问题与诉求商讨办公室
 subtitle: '中梁云山和院业主维权'
-description: '今天买中梁，明天维权忙。济南中梁云山和院业主对药山西X地块药山西小学虚假宣传商业欺诈等问题进行维权工作。中梁云山和院位于济南市天桥区药山街道办事处药山西，洋涓湖及天桥四馆路西，药山社区医院以北，时代总部基地以东，万科北宸之光以南。药山西片区X地块24班小学紧邻中梁地块，置业顾问承诺配套，中梁出示药山西小学代建合同，但实际代建为万科北宸之光，现为万科北宸之光教育配套。'
-keywords: 中梁维权 济南中梁 济南中梁维权 济南中梁业主 中梁云山和院 中梁明湖云璟 济南洋房 济南维权 济南小学维权 药山西小学维权 济南药山 万科北宸之光 维权横幅 天桥区教育局横幅 天桥区市监局 药山四馆 药山社区医院 洋涓湖 时代总部基地
+description: '今天买中梁，明天维权忙。济南中梁云山和院业主对药山西X地块药山西小学虚假宣传商业欺诈等问题进行维权工作。中梁云山和院位于济南市天桥区药山街道办事处药山西，洋涓湖及天桥四馆路西，药山社区医院以北，时代总部基地以东，万科北宸之光以南。'
+keywords: 中梁维权,济南中梁,济南中梁维权,济南中梁业主,中梁云山和院,中梁明湖云璟,济南洋房,万科北宸之光,天桥区教育局,天桥四馆,药山社区医院,洋涓湖,时代总部基地
 author: 中梁业主维权办公室
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -14,7 +14,7 @@ timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://zhongliangweiquan.github.io
-permalink: :title.html
+permalink: :year:month:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -106,7 +106,7 @@ deploy:
 
 
 # 开启压缩
-neat_enable: true
+neat_enable: false
 neat_html:
   enable: true
   exclude:
@@ -122,5 +122,17 @@ neat_js:
   exclude:
     - '**/*.min.js'
     - '**/index.js'
+
+# 外链自动nofollow
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'zhongliangweiquan.github.io'
+
+# abbrlink url地址
+abbrlink:
+  alg: crc32  # 演算法：crc16(default) and crc32 
+  rep: dec    # 進位制：dec(default) and hex
 
 
