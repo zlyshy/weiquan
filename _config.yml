@@ -106,7 +106,7 @@ deploy:
 
 
 # 开启压缩
-neat_enable: false
+neat_enable: true
 neat_html:
   enable: true
   exclude:
