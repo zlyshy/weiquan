@@ -129,6 +129,7 @@ nofollow:
   field: site
   exclude:
     - 'zhongliangweiquan.github.io'
+    - 'zlyshy.github.io'
 
 # abbrlink url地址
 abbrlink:
