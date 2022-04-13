@@ -12,12 +12,13 @@
 
 <div class="copyright">
   {% set copyright_year = date(null, 'YYYY') %}
-  &copy; {% if theme.footer.since and theme.footer.since != copyright_year %}{{ theme.footer.since }} – {% endif %}
+  &copy; <a href="https://zhongliang.eu.org">{% if theme.footer.since and theme.footer.since != copyright_year %}{{ theme.footer.since }} – {% endif %}
   <span itemprop="copyrightYear">{{ copyright_year }}</span>
   <span class="with-love">
     <i class="{{ theme.footer.icon.name }}"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder"><a href="https://zlyshy.github.io">{{ theme.footer.copyright or author }}</a></span>
+  </span></a>
+  <a href="https://zlyshy.github.io">
+  <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright or author }}</span></a>
 
   {%- if config.symbols_count_time.total_symbols %}
     <span class="post-meta-divider">|</span>

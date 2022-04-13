@@ -130,6 +130,7 @@ nofollow:
   exclude:
     - 'zhongliangweiquan.github.io'
     - 'zlyshy.github.io'
+    - 'zhongliang.eu.org'
 
 # abbrlink url地址
 abbrlink:
