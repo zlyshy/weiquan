@@ -40,9 +40,9 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  # small: /images/favicon-16x16-next.png
-  # medium: /images/favicon-32x32-next.png
-  # apple_touch_icon: /images/apple-touch-icon-next.png
+  small: /images/favicon-16x16-next.png
+  medium: /images/favicon-32x32-next.png
+  apple_touch_icon: /images/apple-touch-icon-next.png
   # safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
@@ -61,7 +61,7 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: false
     # Change the color of icon, using Hex Code.
-    color: "#ff0000"
+    color: "#222222"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright: 中梁业主驻京办公室

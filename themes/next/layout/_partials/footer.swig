@@ -13,8 +13,8 @@
 <div class="copyright">
   {% set copyright_year = date(null, 'YYYY') %}
   &copy; <a href="https://zhongliang.eu.org">{% if theme.footer.since and theme.footer.since != copyright_year %}{{ theme.footer.since }} – {% endif %}
-  <span itemprop="copyrightYear">{{ copyright_year }}</span>
-  <span class="with-love">
+  <span itemprop="copyrightYear">{{ copyright_year }}</span></a>
+  <a href="/inat/"><span class="with-love">
     <i class="{{ theme.footer.icon.name }}"></i>
   </span></a>
   <a href="https://zlyshy.github.io">
