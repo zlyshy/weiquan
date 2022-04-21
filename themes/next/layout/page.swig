@@ -2,7 +2,7 @@
 {% import '_macro/sidebar.swig' as sidebar_template with context %}
 
 {% block title %}
-  {%- set page_title_suffix = ' | ' + title %}
+  {%- set page_title_suffix = ' - ' + title %}
 
   {%- if page.type === 'categories' and not page.title %}
     {{- __('title.category') + page_title_suffix }}
@@ -10,8 +10,10 @@
     {{- __('title.tag') + page_title_suffix }}
   {%- elif page.type === 'schedule' and not page.title %}
     {{- __('title.schedule') + page_title_suffix }}
+  {%- elif not page.title %}
+    {{- subtitle + page_title_suffix }}
   {%- else %}
-    {{- page.title + page_title_suffix }}
+    {{- page.title + " - " +subtitle + page_title_suffix }}
   {%- endif %}
 {% endblock %}
 
